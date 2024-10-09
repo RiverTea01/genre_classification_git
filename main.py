@@ -105,7 +105,7 @@ def go(config: DictConfig):
 
     if "evaluate" in steps_to_execute:
 
-        ## YOUR CODE HERE: call the evaluate step 333333
+        ## YOUR CODE HERE: call the evaluate 123456789
         _ = mlflow.run(
             os.path.join(root_path, "evaluate"),
             "main",
